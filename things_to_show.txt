@@ -1,0 +1,46 @@
+why to do this
+- you can colaborate without fear, be faster
+- you can get review easily (there's always mistakes) -> better science
+- respectable journals and supervisors will want you to supply code to reproduce results
+- if done properly, impossible to lose your work because of a lost file, accidental rm-rf, etc...
+- you can get to your code from another machine and continue your work
+- more robust towards mistakes -> you can bring on junior people and continually make them less of a burden
+
+tradeoffs
+- extra stuff to do that takes time
+    - but more stable development with typically higher quality
+    - if used for a long-term project, pays itself off many times over
+- there's a million commands and needs some setup
+
+extras
+- not only for code
+- not only for teams (+public/private repos)
+- reverting, CI, blaming, automated tests, issues, forking, linking, stars
+- any high-performance team that codes uses git, correlation == causation
+- think of it as a better google drive
+- big merges vs small merges
+
+git status
+git add
+git commit
+git push (!--force)
+git pull
+git pull --rebase --autostash
+git branch <bname>
+git checkout <bname>
+git rebase/merge <bname>
+git fetch --all
+git switch <bname>
+git stash (apply)
+PRs, assigning reviewers, looking at diffs and commenting, approving
+
+ssh auto login setup https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+local vs remote commits
+commit names/frequency, WIP
+branches names/frequency/duration
+parallel branches
+gitignore
+.env
+squashing/renaming
+conflicting tasks
+https://learngitbranching.js.org/
